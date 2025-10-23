@@ -85,7 +85,7 @@ export function Coordinators() {
           <h3 className="text-3xl font-bold text-green-400 mb-8 text-center">
             Student Coordinators
           </h3>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {coordinators.students.map((coordinator, index) => <div key={index} className="bg-blue-950/20 backdrop-blur-sm border border-blue-600/30 rounded-xl p-8 hover:border-green-400/50 transition-all duration-300 hover:transform hover:scale-105">
                 <div className="flex flex-col items-center mb-6">
                   <div className="w-16 h-16 rounded-full bg-gradient-to-br from-green-400 to-blue-600 flex items-center justify-center mb-4">
