@@ -1,0 +1,105 @@
+import React from 'react';
+import { UserIcon, PhoneIcon, MailIcon } from 'lucide-react';
+const coordinators = {
+  faculty: [{
+    name: 'Dr. Faculty Name 1',
+    designation: 'Professor & HOD',
+    phone: '+91 XXXXX XXXXX',
+    email: 'faculty1@pmctech.edu.in'
+  }, {
+    name: 'Dr. Faculty Name 2',
+    designation: 'Associate Professor',
+    phone: '+91 XXXXX XXXXX',
+    email: 'faculty2@pmctech.edu.in'
+  }],
+  students: [{
+    name: 'Student Name 1',
+    designation: 'Final Year CSE',
+    phone: '+91 XXXXX XXXXX',
+    email: 'student1@pmctech.edu.in'
+  }, {
+    name: 'Student Name 2',
+    designation: 'Final Year CSE',
+    phone: '+91 XXXXX XXXXX',
+    email: 'student2@pmctech.edu.in'
+  }, {
+    name: 'Student Name 3',
+    designation: 'Third Year CSE',
+    phone: '+91 XXXXX XXXXX',
+    email: 'student3@pmctech.edu.in'
+  }]
+};
+export function Coordinators() {
+  return <section id="coordinators" className="py-20 px-4 sm:px-6 lg:px-8 bg-black">
+      <div className="max-w-7xl mx-auto">
+        <div className="text-center mb-16">
+          <h2 className="text-4xl sm:text-5xl font-bold text-white mb-4">
+            Event Coordinators
+          </h2>
+          <p className="text-xl text-gray-300">
+            Meet the team behind DataForge 2K25
+          </p>
+        </div>
+        <div className="mb-16">
+          <h3 className="text-3xl font-bold text-green-400 mb-8 text-center">
+            Faculty Coordinators
+          </h3>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+            {coordinators.faculty.map((coordinator, index) => <div key={index} className="bg-blue-950/20 backdrop-blur-sm border border-blue-600/30 rounded-xl p-8 hover:border-green-400/50 transition-all duration-300 hover:transform hover:scale-105">
+                <div className="flex items-center mb-6">
+                  <div className="w-16 h-16 rounded-full bg-gradient-to-br from-blue-600 to-green-400 flex items-center justify-center mr-4">
+                    <UserIcon className="w-8 h-8 text-white" />
+                  </div>
+                  <div>
+                    <h4 className="text-xl font-bold text-white">
+                      {coordinator.name}
+                    </h4>
+                    <p className="text-gray-400">{coordinator.designation}</p>
+                  </div>
+                </div>
+                <div className="space-y-3">
+                  <div className="flex items-center text-gray-300">
+                    <PhoneIcon className="w-5 h-5 text-green-400 mr-3" />
+                    <span>{coordinator.phone}</span>
+                  </div>
+                  <div className="flex items-center text-gray-300">
+                    <MailIcon className="w-5 h-5 text-green-400 mr-3" />
+                    <span className="break-all">{coordinator.email}</span>
+                  </div>
+                </div>
+              </div>)}
+          </div>
+        </div>
+        <div>
+          <h3 className="text-3xl font-bold text-green-400 mb-8 text-center">
+            Student Coordinators
+          </h3>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            {coordinators.students.map((coordinator, index) => <div key={index} className="bg-blue-950/20 backdrop-blur-sm border border-blue-600/30 rounded-xl p-8 hover:border-green-400/50 transition-all duration-300 hover:transform hover:scale-105">
+                <div className="flex flex-col items-center mb-6">
+                  <div className="w-16 h-16 rounded-full bg-gradient-to-br from-green-400 to-blue-600 flex items-center justify-center mb-4">
+                    <UserIcon className="w-8 h-8 text-white" />
+                  </div>
+                  <h4 className="text-xl font-bold text-white text-center">
+                    {coordinator.name}
+                  </h4>
+                  <p className="text-gray-400 text-center">
+                    {coordinator.designation}
+                  </p>
+                </div>
+                <div className="space-y-3">
+                  <div className="flex items-center text-gray-300">
+                    <PhoneIcon className="w-5 h-5 text-green-400 mr-3" />
+                    <span>{coordinator.phone}</span>
+                  </div>
+                  <div className="flex items-center text-gray-300">
+                    <MailIcon className="w-5 h-5 text-green-400 mr-3" />
+                    <span className="break-all">{coordinator.email}</span>
+                  </div>
+                </div>
+              </div>)}
+          </div>
+        </div>
+      </div>
+    </section>;
+}
