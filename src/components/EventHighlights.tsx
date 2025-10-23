@@ -1,5 +1,5 @@
 import React, { useEffect, useState, useRef } from 'react';
-import { TrophyIcon, UsersIcon, CalendarIcon, SparklesIcon, BadgeIndianRupee } from 'lucide-react';
+import { UsersIcon, CalendarIcon, SparklesIcon, BadgeIndianRupee } from 'lucide-react';
 export function EventHighlights() {
   const [isVisible, setIsVisible] = useState(false);
   const [counts, setCounts] = useState({
@@ -27,17 +27,11 @@ export function EventHighlights() {
     value: 500,
     suffix: '+',
     color: 'from-pink-400 to-cyan-400'
-  }, {
-    icon: TrophyIcon,
-    label: 'Prize Pool',
-    value: 50000,
-    prefix: '₹',
-    suffix: '+',
-    color: 'from-cyan-400 to-purple-400'
-  }, {
+  },
+      {
     icon: SparklesIcon,
     label: 'Hours of Innovation',
-    value: 8,
+    value: 6,
     suffix: '+',
     color: 'from-purple-400 to-cyan-400'
   }

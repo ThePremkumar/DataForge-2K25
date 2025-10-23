@@ -8,12 +8,12 @@ export function Footer() {
     color: 'hover:text-blue-400'
   }, {
     name: 'GitHub',
-    url: 'https://github.com/thepremkumar',
+    url: 'https://github.com/ThePremkumar',
     icon: GithubIcon,
     color: 'hover:text-purple-400'
   }, {
     name: 'Portfolio',
-    url: 'https://thepremkumar.netlify.app',
+    url: 'https://thepremkumar.netlify.app/',
     icon: GlobeIcon,
     color: 'hover:text-cyan-400'
   }];
@@ -38,7 +38,7 @@ export function Footer() {
               Prem Kumar
             </h3>
             <p className="text-gray-400 text-sm mb-6">
-              Full Stack Developer & UI/UX Designer
+              MERN Stack Developer
             </p>
             {/* Social Links */}
             <div className="flex items-center justify-center space-x-6">
@@ -55,8 +55,7 @@ export function Footer() {
           {/* Copyright */}
           <div className="text-center">
             <p className="text-gray-500 text-sm">
-              © {new Date().getFullYear()} DataForge 2K25 - Er. Perumal
-              Manimekalai College of Engineering
+              © {new Date().getFullYear()} DataForge 2K25
             </p>
             <p className="text-gray-600 text-xs mt-2">All rights reserved</p>
           </div>
