@@ -38,7 +38,7 @@ export function VenueContact() {
                       Phone
                     </h4>
                     <p className="text-gray-300 text-sm sm:text-base">
-                      +91 XXXXX XXXXX
+                      +91 6369540320
                     </p>
                   </div>
                 </div>
@@ -49,19 +49,8 @@ export function VenueContact() {
                       Email
                     </h4>
                     <p className="text-gray-300 text-sm sm:text-base break-all">
-                      dataforge2k25@pmctech.edu.in
+                      premkumar2462004@gmail.com
                     </p>
-                  </div>
-                </div>
-                <div className="flex items-start">
-                  <GlobeIcon className="w-6 h-6 text-cyan-400 mr-4 mt-1 flex-shrink-0" />
-                  <div>
-                    <h4 className="text-lg font-semibold text-white mb-1">
-                      Website
-                    </h4>
-                    <a href="https://www.pmctech.edu.in" target="_blank" rel="noopener noreferrer" className="text-purple-400 hover:text-cyan-400 transition-colors text-sm sm:text-base">
-                      www.pmctech.edu.in
-                    </a>
                   </div>
                 </div>
               </div>
@@ -69,7 +58,7 @@ export function VenueContact() {
           </div>
           <div>
             <div className="bg-slate-900/40 backdrop-blur-sm border border-purple-500/30 rounded-xl overflow-hidden h-full min-h-[400px]">
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3890.1234567890123!2d77.8123456!3d12.7123456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTLCsDQyJzQ0LjQiTiA3N8KwNDgnNDQuNCJF!5e0!3m2!1sen!2sin!4v1234567890123!5m2!1sen!2sin" width="100%" height="100%" style={{
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d59196.220291285805!2d77.93902949262142!3d12.690288694399847!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3badd7b86d5c525b%3A0x96adb36aef28bc00!2sEr.%20Perumal%20Manimekalai%20College%20of%20Engineering!5e1!3m2!1sen!2sin!4v1761198727224!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" width="100%" height="100%" style={{
               border: 0,
               minHeight: '400px'
             }} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" title="PMC Tech Location"></iframe>

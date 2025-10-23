@@ -3,17 +3,17 @@ import { LinkedinIcon, GithubIcon, GlobeIcon, HeartIcon, CodeIcon } from 'lucide
 export function Footer() {
   const socialLinks = [{
     name: 'LinkedIn',
-    url: 'https://www.linkedin.com/in/premkumar',
+    url: 'https://www.linkedin.com/in/thepremkumar',
     icon: LinkedinIcon,
     color: 'hover:text-blue-400'
   }, {
     name: 'GitHub',
-    url: 'https://github.com/premkumar',
+    url: 'https://github.com/thepremkumar',
     icon: GithubIcon,
     color: 'hover:text-purple-400'
   }, {
     name: 'Portfolio',
-    url: 'https://premkumar.dev',
+    url: 'https://thepremkumar.netlify.app',
     icon: GlobeIcon,
     color: 'hover:text-cyan-400'
   }];

@@ -1,32 +1,31 @@
 import React from 'react';
-import { UserIcon, PhoneIcon, MailIcon } from 'lucide-react';
+import { UserIcon, PhoneIcon, MailIcon, MessageCircleMore  } from 'lucide-react';
 const coordinators = {
   faculty: [{
-    name: 'Dr. Faculty Name 1',
-    designation: 'Professor & HOD',
-    phone: '+91 XXXXX XXXXX',
-    email: 'faculty1@pmctech.edu.in'
+    name: 'Mrs. Bhagyalaskmi V ',
+    designation: 'Assistant Professor',
+    phone: '+91 7483435523',
+    email: 'saibhagya15@gmail.com',
+    whatapp: 'https://wa.me/917483435523'
   }, {
-    name: 'Dr. Faculty Name 2',
-    designation: 'Associate Professor',
-    phone: '+91 XXXXX XXXXX',
-    email: 'faculty2@pmctech.edu.in'
+    name: 'Ms. R. Deepa',
+    designation: 'Assistant Professor',
+    phone: '+91 939120118',
+    email: 'siva54deepa@gmail.com',
+    whatapp: 'https://wa.me/91939120118'
   }],
   students: [{
-    name: 'Student Name 1',
-    designation: 'Final Year CSE',
-    phone: '+91 XXXXX XXXXX',
-    email: 'student1@pmctech.edu.in'
+    name: 'Prem Kumar S',
+    designation: 'Final Year CS&BS',
+    phone: '+91 6369540320',
+    email: 'premkumar2462004@gmail.com',
+    whatapp: 'https://wa.me/916369540320'
   }, {
-    name: 'Student Name 2',
-    designation: 'Final Year CSE',
-    phone: '+91 XXXXX XXXXX',
-    email: 'student2@pmctech.edu.in'
-  }, {
-    name: 'Student Name 3',
-    designation: 'Third Year CSE',
-    phone: '+91 XXXXX XXXXX',
-    email: 'student3@pmctech.edu.in'
+    name: 'Hasvamathi R',
+    designation: 'Final Year CS&BS',
+    phone: '+91 8248652895',
+    email: 'hasvamathi@gmail.com',
+    whatapp: 'https://wa.me/918248652895'
   }]
 };
 export function Coordinators() {
@@ -66,6 +65,18 @@ export function Coordinators() {
                     <MailIcon className="w-5 h-5 text-green-400 mr-3" />
                     <span className="break-all">{coordinator.email}</span>
                   </div>
+                    <div className="flex items-center text-gray-300">
+                        <MessageCircleMore  className="w-5 h-5 text-green-400 mr-3" />
+                        <span className="font-semibold mr-2 text-white">WhatsApp:</span>
+                        <a
+                            href={`${coordinator.whatapp}`}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="break-all text-green-300 hover:text-green-400 transition-colors"
+                        >
+                            Chat on WhatsApp
+                        </a>
+                    </div>
                 </div>
               </div>)}
           </div>
@@ -96,6 +107,18 @@ export function Coordinators() {
                     <MailIcon className="w-5 h-5 text-green-400 mr-3" />
                     <span className="break-all">{coordinator.email}</span>
                   </div>
+                    <div className="flex items-center text-gray-300">
+                        <MessageCircleMore  className="w-5 h-5 text-green-400 mr-3" />
+                        <span className="font-semibold mr-2 text-white">WhatsApp:</span>
+                        <a
+                            href={`${coordinator.whatapp}`}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="break-all text-green-300 hover:text-green-400 transition-colors"
+                        >
+                            Chat on WhatsApp
+                        </a>
+                    </div>
                 </div>
               </div>)}
           </div>
