@@ -66,12 +66,7 @@ export function Navbar({
             <button onClick={() => scrollToSection('venue')} className="block w-full text-left text-gray-300 hover:text-cyan-400 transition-colors py-2 font-medium">
               Venue & Contact
             </button>
-            <button onClick={() => {
-          onRegisterClick();
-          setIsMenuOpen(false);
-        }} className="block w-full text-left bg-gradient-to-r from-purple-500 to-cyan-500 text-white font-semibold py-3 px-4 rounded-lg hover:from-purple-600 hover:to-cyan-600 transition-all shadow-lg shadow-purple-500/30">
-              Register Now
-            </button>
+
           </div>
         </div>}
     </nav>;

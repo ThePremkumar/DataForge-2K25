@@ -13,8 +13,8 @@ export function Hero() {
         animationDelay: '2s'
       }}></div>
       </div>
-      <div className="relative max-w-6xl mx-auto text-center">
-        <div className="mb-8">
+      <div className="relative max-w-6xl mx-auto text-center ">
+        <div className="mb-8 sm:mx-3.5">
           <h1 className="text-4xl sm:text-6xl lg:text-7xl font-bold mb-4 bg-gradient-to-r from-purple-400 via-pink-400 to-cyan-400 bg-clip-text text-transparent animate-pulse">
             DataForge 2K25
           </h1>
