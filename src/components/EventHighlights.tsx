@@ -1,5 +1,5 @@
 import React, { useEffect, useState, useRef } from 'react';
-import { TrophyIcon, UsersIcon, CalendarIcon, SparklesIcon } from 'lucide-react';
+import { TrophyIcon, UsersIcon, CalendarIcon, SparklesIcon, BadgeIndianRupee } from 'lucide-react';
 export function EventHighlights() {
   const [isVisible, setIsVisible] = useState(false);
   const [counts, setCounts] = useState({
@@ -16,6 +16,12 @@ export function EventHighlights() {
     suffix: '+',
     color: 'from-purple-400 to-pink-400'
   }, {
+      icon: BadgeIndianRupee,
+      label: 'Entry fees / Pre head',
+      value: '150',
+      suffix: 'Rs',
+      color: 'from-purple-400 to-cyan-400'
+  },{
     icon: UsersIcon,
     label: 'Expected Participants',
     value: 500,
@@ -34,7 +40,8 @@ export function EventHighlights() {
     value: 8,
     suffix: '+',
     color: 'from-purple-400 to-cyan-400'
-  }];
+  }
+  ];
   useEffect(() => {
     const observer = new IntersectionObserver(([entry]) => {
       if (entry.isIntersecting) {
