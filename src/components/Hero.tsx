@@ -15,7 +15,7 @@ export function Hero() {
       </div>
       <div className="relative max-w-6xl mx-auto text-center ">
         <div className="mb-8 ">
-          <h1 className="text-4xl sm:text-6xl lg:text-7xl font-bold mb-4 bg-gradient-to-r from-purple-400 via-pink-400 to-cyan-400 bg-clip-text text-transparent animate-pulse">
+          <h1 className="text-4xl sm:text-6xl lg:text-7xl font-bold mb-4 p-3 sm:mt-14 bg-gradient-to-r from-purple-400 via-pink-400 to-cyan-400 bg-clip-text text-transparent animate-pulse">
             DataForge 2K25
           </h1>
           <p className="text-xl sm:text-2xl lg:text-3xl text-transparent bg-clip-text bg-gradient-to-r from-purple-300 to-cyan-300 font-semibold mb-2">

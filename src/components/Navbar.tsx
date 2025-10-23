@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { MenuIcon, XIcon } from 'lucide-react';
+import logo from '../assests/logo.png';
 interface NavbarProps {
   onRegisterClick: () => void;
 }
@@ -20,9 +21,7 @@ export function Navbar({
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
-            <h1 className="text-xl sm:text-2xl font-bold bg-gradient-to-r from-purple-400 via-pink-400 to-cyan-400 bg-clip-text text-transparent">
-              DataForge 2K25
-            </h1>
+              <img src={logo}  className="object-contain w-12 h-12 rounded-xl shadow-md transition-transform duration-300 group-hover:scale-110"/>
           </div>
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
