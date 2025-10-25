@@ -49,6 +49,12 @@ export function Hero() {
             to challenge and inspire students from across the nation.
           </p>
         </div>
+          <div className="note bg-gray-800/40 border border-gray-700 rounded-2xl p-4 my-6">
+              <h1 className="text-2xl font-semibold text-white mb-2">Note:</h1>
+              <p className="text-red-300 leading-relaxed">
+                  Participants should bring their own laptop.
+              </p>
+          </div>
       </div>
     </section>;
 }
