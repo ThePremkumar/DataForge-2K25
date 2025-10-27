@@ -1,7 +1,6 @@
 import React from 'react';
 import { CalendarIcon, MapPinIcon, BuildingIcon } from 'lucide-react';
 import { FloatingParticles } from './FloatingParticles';
-import img from '../assets/poster.jpg';
 export function Hero() {
   return <section id="home" className="relative min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8 pt-16 bg-gradient-to-br from-slate-950 via-purple-950/20 to-slate-950 overflow-hidden">
       <FloatingParticles />
@@ -57,7 +56,6 @@ export function Hero() {
               </p>
               <div className="text-center mb-8 font-semibold text-lg">
                   Participants can attend any two events
-                  <img src={img} alt="image" />
               </div>
 
           </div>
