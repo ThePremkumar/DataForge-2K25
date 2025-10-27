@@ -7,7 +7,7 @@ export function CountdownTimer() {
     seconds: 0
   });
   useEffect(() => {
-    const targetDate = new Date('2025-11-01T00:00:00Z').getTime();
+    const targetDate = new Date('2025-11-01T04:00:00Z').getTime();
     const updateCountdown = () => {
       const now = new Date().getTime();
       const distance = targetDate - now;
