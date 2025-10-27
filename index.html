@@ -1,12 +1,87 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Basic SEO Setup -->
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/png" href="src/assests/logo.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>DataForge 2K25</title>
+    <title>DataForge 2K25 | AI, Data Science & Innovation Conference</title>
+
+    <!--  Meta Description -->
+    <meta name="description" content="Join DataForge 2K25 — the ultimate AI, Data Science, and Tech Innovation conference. Network with industry leaders, explore cutting-edge research, and forge the future of data!"/>
+
+    <!--  Favicon -->
+    <link rel="icon" type="image/png" href="src/assets/logo.png" />
+
+    <!--  Canonical URL -->
+    <link rel="canonical" href="https://www.dataforge2k25.com/" />
+
+    <!--  Keywords (for older search engines) -->
+    <meta name="keywords" content="DataForge 2K25, AI conference 2025, Data Science event, Machine Learning summit, tech innovation 2025, data analytics, AI expo"/>
+
+    <!--  Open Graph (Facebook, LinkedIn, etc.) -->
+    <meta property="og:title" content="DataForge 2K25 | AI, Data Science & Innovation Conference" />
+    <meta property="og:description" content="Experience the future of AI and Data Science at DataForge 2K25 — featuring global speakers, workshops, and innovation showcases."/>
+    <meta property="og:image" content="https://www.dataforge2k25.com/og-image.png" />
+    <meta property="og:url" content="https://www.dataforge2k25.com/" />
+    <meta property="og:type" content="website" />
+
+    <!--  Twitter Card (for better social sharing) -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="DataForge 2K25 | AI, Data Science & Innovation Conference" />
+    <meta name="twitter:description" content="Connect with AI & data science leaders at DataForge 2K25. Join workshops, hackathons, and keynotes shaping the data future!"/>
+    <meta name="twitter:image" content="https://www.dataforge2k25.com/twitter-card.png" />
+
+    <!--  Robots -->
+    <meta name="robots" content="index, follow" />
+
+    <!--Structured Data (Schema.org JSON-LD) -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Event",
+        "name": "DataForge 2K25",
+        "startDate": "2025-06-10",
+        "endDate": "2025-06-12",
+        "eventStatus": "https://schema.org/EventScheduled",
+        "eventAttendanceMode": "https://schema.org/MixedEventAttendanceMode",
+        "location": {
+          "@type": "Place",
+          "name": "Tech Expo Center",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "123 Innovation Blvd",
+            "addressLocality": "San Francisco",
+            "addressRegion": "CA",
+            "postalCode": "94107",
+            "addressCountry": "USA"
+          }
+        },
+        "image": ["https://www.dataforge2k25.com/banner.jpg"],
+        "description": "The premier AI and Data Science conference bringing together researchers, professionals, and innovators.",
+        "organizer": {
+          "@type": "Organization",
+          "name": "DataForge",
+          "url": "https://www.dataforge2k25.com"
+        }
+      }
+    </script>
+
+    <!-- Performance & Accessibility -->
+    <meta name="theme-color" content="#0a0a0a" />
+    <link rel="preload" href="/src/index.tsx" as="script" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+
   </head>
   <body>
+    <noscript>
+      Please enable JavaScript to view this site properly. DataForge 2K25 offers a full interactive experience.
+    </noscript>
     <div id="root"></div>
     <script type="module" src="/src/index.tsx"></script>
   </body>
