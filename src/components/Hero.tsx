@@ -51,9 +51,13 @@ export function Hero() {
         </div>
           <div className="note bg-gray-800/40 border border-gray-700 rounded-2xl p-4 my-6">
               <h1 className="text-2xl font-semibold text-white mb-2">Note:</h1>
-              <p className="text-red-300 leading-relaxed">
+              <p className="text-red-300 leading-relaxed font-bold text-lg">
                   Participants should bring their own laptop.
               </p>
+              <div className="text-center mb-8 font-semibold text-lg">
+                  Participants can attend any two events
+              </div>
+
           </div>
       </div>
     </section>;
