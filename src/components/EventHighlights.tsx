@@ -12,7 +12,7 @@ export function EventHighlights() {
   const highlights = [{
     icon: CalendarIcon,
     label: 'Events',
-    value: 7,
+    value: 8,
     suffix: '+',
     color: 'from-purple-400 to-pink-400'
   }, {
